@@ -13,9 +13,9 @@ public class main {
 
     public static void main(String[] args) {
         System.out.println("Comprobando herramientas de programación");
-        generarLexer("C:\\Users\\Hp245-User\\Documents\\NetBeansProjects\\practica1_analizadorLexico\\src\\jflexcup\\Lexico\\archivo.lex");
+        generarLexer("C:\\Users\\Hp245-User\\Documents\\NetBeansProjects\\Analizador_Lexico\\src\\jflexcup\\Lexico\\archivo.lex");
         //probarLexer_teclado();
-        probarLexerFile_archivo("C:\\Users\\Hp245-User\\Documents\\NetBeansProjects\\practica1_analizadorLexico\\src\\jflexcup\\Lexico\\ejemplo.py");
+        probarLexerFile_archivo("C:\\Users\\Hp245-User\\Documents\\NetBeansProjects\\Analizador_Lexico\\src\\jflexcup\\Lexico\\ejemplo.py");
     }
     
     //Este genera la clase Yylex.java, que es el resultado de nuestras
