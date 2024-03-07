@@ -13,8 +13,8 @@ public class main {
 
     public static void main(String[] args) {
         System.out.println("Comprobando herramientas de programación");
-        generarLexer("C:\\Users\\Hp245-User\\Documents\\NetBeansProjects\\Analizador_Lexico\\src\\jflexcup\\Lexico\\archivo.lex");
-        //probarLexer_teclado();
+//        generarLexer("C:\\Users\\Hp245-User\\Documents\\NetBeansProjects\\Analizador_Lexico\\src\\jflexcup\\Lexico\\archivo.lex");
+
         probarLexerFile_archivo("C:\\Users\\Hp245-User\\Documents\\NetBeansProjects\\Analizador_Lexico\\src\\jflexcup\\Lexico\\ejemplo.py");
     }
     
