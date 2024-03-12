@@ -94,7 +94,10 @@ identificador = [:jletter:][:jletterdigit:]*
     "}" { System.out.println("<LLAVE_CIERRA, " + yytext() + ">"); }
     "(" { System.out.println("<PARENTESIS_ABRE, " + yytext() + ">"); }
     ")" { System.out.println("<PARENTESIS_CIERRA, " + yytext() + ">"); }
-
+    "ñ" { System.err.println("Error léxico: Carácter no reconocido '" + yytext() + "'"); }
+    "@" { System.err.println("Error léxico: Carácter no reconocido '" + yytext() + "'"); }
+    ":)" { System.err.println("Error léxico: Carácter no reconocido '" + yytext() + "'"); }
+    
 }
 
 
